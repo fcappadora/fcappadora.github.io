@@ -1,0 +1,36 @@
+<header class="site-header">
+
+<div class="container-fluid">
+
+  <div class="title-area col-xs-9 col-xs-push-3 col-sm-12 col-sm-push-0 text-right text-nowrap">
+
+    <a href="{{ site.baseurl }}/">
+      <h1 class="site-title col-xs-12">JASON<span style="font-weight: 700">BLITMAN</span></h1>
+    </a>
+    <h2 class="site-subtitle col-xs-12">DIRECTOR|PRODUCER|ACTING COACH</h2>
+  </div>
+  
+  <div class="site-nav hidden-xs"> <!-- Navigation for full sized site -->
+    {% for my_page in site.pages %}
+      {% if my_page.title %}
+        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+        
+  <div class="dropdown hidden-sm hidden-md hidden-lg"> <!-- Dropdown navigation for mobile site -->
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">MENU
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% endif %}
+      {% endfor %}    
+    </ul>
+  </div>
+
+</div>
+
+</header>

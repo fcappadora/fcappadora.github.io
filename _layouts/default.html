@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+    <div class="col-xs-3 col-xs-pull-9 col-sm-3 col-sm-pull-0"> <!-- Headhot horrizontal banner -->
+        <img class="img-responsive" id="headshot" src = "{{ site.url }}/assets/headshot.jpg" alt = "Headshot">
+    </div>
+
+    <div class="page-content col-sm-9">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
