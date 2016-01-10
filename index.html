@@ -9,7 +9,7 @@ layout: default
      {% if my_page.block_list %} 
       <li>
         <h2>
-          <a class="block-link col-xs-12" href="{{ my_page.url | prepend: site.baseurl }}" style="background-image: url("{{mypage.backgrounf_img | prepend: site.imgurl}}");">
+          <a class="block-link col-xs-12" href="{{ my_page.url | prepend: site.baseurl }}" style="background-image: url("{{ site.imgurl }}{{ my_page.background_img }}");">
             {{ my_page.block_list }}
           </a>
         </h2>
