@@ -2,6 +2,9 @@
 layout: page
 title: Coaching
 permalink: /coaching/
+main_nav: true
+block_list: Acting Coach
+background_img: block3.jpg
 ---
 
 ABOUTJASON

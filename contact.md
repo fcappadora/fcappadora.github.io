@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /Contact/
+main_nav: true
 ---
 
 ABOUTJASON

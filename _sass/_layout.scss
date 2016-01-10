@@ -43,10 +43,11 @@ body {
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        botder
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: 20px !important;
         }
     }  
 }
@@ -130,6 +131,11 @@ body {
 .post-link {
     display: block;
     font-size: 24px;
+}
+
+.block-link {
+    border: 3px solid $grey-color;
+    width: 100%;
 }
 
 

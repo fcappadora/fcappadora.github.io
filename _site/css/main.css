@@ -5925,8 +5925,9 @@ body {
   .site-nav .page-link {
     color: #111;
     line-height: 1.5; }
+    botder
     .site-nav .page-link:not(:last-child) {
-      margin-right: 20px; }
+      margin-right: 20px !important; }
 
 /**
  * Site footer
@@ -5988,6 +5989,10 @@ body {
 .post-link {
   display: block;
   font-size: 24px; }
+
+.block-link {
+  border: 3px solid #828282;
+  width: 100%; }
 
 /**
  * Posts

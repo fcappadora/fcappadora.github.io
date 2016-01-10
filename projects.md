@@ -2,6 +2,9 @@
 layout: page
 title: Projects
 permalink: /projects/
+main_nav: true
+block_list: Current Projects
+background_img: block1.jpg
 ---
 
 ABOUTJASON

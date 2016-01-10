@@ -2,6 +2,9 @@
 layout: page
 title: Casting
 permalink: /casting/
+main_nav: true
+block_list: Casting Director
+background_img: block2.jpg
 ---
 
 ABOUTJASON

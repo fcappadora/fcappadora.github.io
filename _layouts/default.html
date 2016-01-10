@@ -4,21 +4,21 @@
   {% include head.html %}
 
   <body>
-
+    <div class="container-fluid">
     {% include header.html %}
     
     <div class="col-xs-3 col-xs-pull-9 col-sm-3 col-sm-pull-0"> <!-- Headhot horrizontal banner -->
         <img class="img-responsive" id="headshot" src = "{{ site.url }}/assets/headshot.jpg" alt = "Headshot">
     </div>
 
-    <div class="page-content col-sm-9">
+    <div class="page-content col-xs-12 col-sm-9">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
 
     {% include footer.html %}
-
+    </div>
   </body>
 
 </html>
