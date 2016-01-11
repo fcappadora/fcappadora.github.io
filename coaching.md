@@ -4,7 +4,7 @@ title: Coaching
 permalink: /coaching/
 main_nav: true
 block_list: Acting Coach
-background_img: block3.jpg
+background_img: /block3.jpg
 ---
 
 ABOUTJASON
